@@ -1,0 +1,39 @@
+{
+   "results":[
+      {
+         "screen":"SignIn",
+         "items":[
+            {
+               "key":"title",
+               "ar":"تسجيل الدخول",
+               "en":"Sign In"
+            }
+         ]
+      },
+      {
+         "screen":"Onboarding",
+         "items":[
+            {
+               "key":"title",
+               "ar":"Connect with Stars!",
+               "en":"Connect with Stars!"
+            },
+            {
+               "key":"screenSubTitle",
+               "ar":"Ask them questions or seek advice or whatever you want",
+               "en":"Ask them questions or seek advice or whatever you want"
+            },
+            {
+               "key":"signUpButtonTitle",
+               "ar":"Sign Up",
+               "en":"Sign Up"
+            },
+            {
+               "key":"exploreAsAguest",
+               "ar":"Explore as a guest",
+               "en":"Explore as a guest"
+            }
+         ]
+      }
+   ]
+}
