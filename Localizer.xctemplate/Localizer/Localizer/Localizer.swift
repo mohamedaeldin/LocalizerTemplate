@@ -2,7 +2,6 @@ import UIKit
 
 class Localizer: NSObject {
     fileprivate static let languageKey = "language"
-    private static var currentDefaults: UserDefaults!
 
     enum AppLanguage: String {
         case none = ""
@@ -62,12 +61,11 @@ class Localizer: NSObject {
     // MARK: - private functions
 
     private static func saveLanguage(language: String) {
-        currentDefaults.set(language, forKey: languageKey)
-        currentDefaults.synchronize()
+        StorageUserDefaultsManager.shared.save(value: language, forKey: languageKey, completion: nil)
     }
 
     private static func getSavedLanguage() -> String {
-        currentDefaults.string(forKey: languageKey) ?? ""
+        (StorageUserDefaultsManager.shared.get(valueForKey: languageKey) as? String) ?? ""
     }
 }
 
