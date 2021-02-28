@@ -43,7 +43,7 @@ If you choosed from the drop down list:
   *  `Localizer.swift`
 
 * **LocalizerJSON**
-  *  `LocalizerJSON.swift`  (Prequisit add `Localizer`)
+  *  `LocalizerJSON.swift`  (Prerequisite add `Localizer`)
 
 ## Contact
 [Mohamed Alaa El-Din](https://github.com/mohamedaeldin)
