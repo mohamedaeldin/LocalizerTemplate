@@ -27,7 +27,9 @@ extension Localizer {
         }
 
         do {
-            try model.toJSON().description.write(to: URL(fileURLWithPath: path), atomically: true, encoding: String.Encoding.utf8)
+            let jsonData = try JSONSerialization.data(withJSONObject: model.toJSON(), options: JSONSerialization.WritingOptions.prettyPrinted)
+            let jsonString = String(data: jsonData, encoding: String.Encoding.utf8)
+            try jsonString?.write(to: URL(fileURLWithPath: path), atomically: true, encoding: String.Encoding.utf8)
         } catch {}
 
         // Save to Userdefaults

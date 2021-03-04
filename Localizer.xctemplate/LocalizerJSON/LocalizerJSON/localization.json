@@ -1,39 +1,237 @@
 {
-   "results":[
-      {
-         "screen":"SignIn",
-         "items":[
-            {
-               "key":"title",
-               "ar":"تسجيل الدخول",
-               "en":"Sign In"
-            }
-         ]
-      },
-      {
-         "screen":"Onboarding",
-         "items":[
-            {
-               "key":"title",
-               "ar":"Connect with Stars!",
-               "en":"Connect with Stars!"
-            },
-            {
-               "key":"screenSubTitle",
-               "ar":"Ask them questions or seek advice or whatever you want",
-               "en":"Ask them questions or seek advice or whatever you want"
-            },
-            {
-               "key":"signUpButtonTitle",
-               "ar":"Sign Up",
-               "en":"Sign Up"
-            },
-            {
-               "key":"exploreAsAguest",
-               "ar":"Explore as a guest",
-               "en":"Explore as a guest"
-            }
-         ]
-      }
-   ]
+    "results":[
+        {
+           "screen":"Splash",
+           "items":[
+              {
+                 "key":"title",
+                 "ar":"N E J M O",
+                 "en":"N E J M O"
+              },
+              {
+                 "key":"screenSubTitle",
+                 "ar":"Aim to the stars",
+                 "en":"Aim to the stars"
+              }
+           ]
+        },
+        {
+           "screen":"Onboarding",
+           "items":[
+              {
+                 "key":"title",
+                 "ar":"Connect with Stars!",
+                 "en":"Connect with Stars!"
+              },
+              {
+                 "key":"screenSubTitle",
+                 "ar":"Ask them questions or seek advice or whatever you want",
+                 "en":"Ask them questions or seek advice or whatever you want"
+              },
+              {
+                 "key":"signUpButtonTitle",
+                 "ar":"Sign Up",
+                 "en":"Sign Up"
+              },
+              {
+                 "key":"exploreAsAguest",
+                 "ar":"Explore as a guest",
+                 "en":"Explore as a guest"
+              }
+           ]
+        },
+        {
+           "screen":"SignUp",
+           "items":[
+              {
+                 "key":"title",
+                 "ar":"Create Account",
+                 "en":"Create Account"
+              },
+              {
+                 "key":"screenSubTitle",
+                 "ar":"Create an account and connect to your favorite celebrity",
+                 "en":"Create an account and connect to your favorite celebrity"
+              },
+              {
+                 "key":"signUpWithFacebookButtonTitle",
+                 "ar":"Sign up with Facebook",
+                 "en":"Sign up with Facebook"
+              },
+              {
+                 "key":"signUpWithGoogleButtonTitle",
+                 "ar":"Sign up with Google",
+                 "en":"Sign up with Google"
+              },
+              {
+                 "key":"signUpWithEmailButtonTitle",
+                 "ar":"Sign up with Email",
+                 "en":"Sign up with Email"
+              },
+              {
+                 "key":"signUphaveAccountTitle",
+                 "ar":"Already have account?",
+                 "en":"Already have account?"
+              },
+              {
+                 "key":"signUpSignInTitle",
+                 "ar":"Sign in",
+                 "en":"Sign in"
+              },
+              {
+                 "key":"signUpEnrollAsTallenButtontTitle",
+                 "ar":"Enroll as Talent",
+                 "en":"Enroll as Talent"
+              }
+           ]
+        },
+        {
+            "screen":"SignUpWithEmail",
+            "items":[
+                {
+                    "key":"title",
+                    "ar":"سجل عن طريق البريد الإلكتروني",
+                    "en":"Sign Up With Email"
+                },
+                {
+                    "key":"nameFieldPlaceHolder",
+                    "ar":"Name",
+                    "en":"Name"
+                },
+                {
+                    "key":"emailFieldPlaceHolder",
+                    "ar":"Email",
+                    "en":"Email"
+                },
+                {
+                    "key":"passwordFieldPlaceHolder",
+                    "ar":"Password",
+                    "en":"Password"
+                },
+                {
+                    "key":"termsAndConditionsLabelText",
+                    "ar":"By signing up you agree with our terms\nand conditions",
+                    "en":"By signing up you agree with our terms\nand conditions"
+                },
+                {
+                    "key":"signUpButtonText",
+                    "ar":"Sign Up",
+                    "en":"Sign Up"
+                },
+                {
+                    "key":"toSignInButton",
+                    "ar":"Already have account? Sign in",
+                    "en":"Already have account? Sign in"
+                },
+            ]
+        },
+        {
+           "screen":"SignIn",
+           "items":[
+              {
+                 "key":"title",
+                 "ar":"Sign In",
+                 "en":"Sign In"
+              },
+              {
+                 "key":"screenSubTitle",
+                 "ar":"Login and connect to your favorite celebrities and role models",
+                 "en":"Login and connect to your favorite celebrities and role models"
+              },
+              {
+                 "key":"signInWithFacebookButtonTitle",
+                 "ar":"Sign In with Facebook",
+                 "en":"Sign In with Facebook"
+              },
+              {
+                 "key":"signInWithGoogleButtonTitle",
+                 "ar":"Sign In with Google",
+                 "en":"Sign In with Google"
+              },
+              {
+                 "key":"signInWithEmailButtonTitle",
+                 "ar":"Sign In with Email",
+                 "en":"Sign In with Email"
+              },
+              {
+                 "key":"signInhaveAccountTitle",
+                 "ar":"Don't have account?",
+                 "en":"Don't have account?"
+              },
+              {
+                 "key":"signInSignUpTitle",
+                 "ar":"Sign Up",
+                 "en":"Sign Up"
+              },
+              {
+                 "key":"signInEnrollAsTallenButtontTitle",
+                 "ar":"Enroll as Talent",
+                 "en":"Enroll as Talent"
+              }
+           ]
+        },
+        {
+            "screen":"SignInWithEmail",
+            "items":[
+                {
+                    "key":"title",
+                    "ar":"Sign In with Email",
+                    "en":"Sign In with Email"
+                },
+                {
+                    "key":"emailFieldPlaceHolder",
+                    "ar":"Email",
+                    "en":"Email"
+                },
+                {
+                    "key":"passwordFieldPlaceHolder",
+                    "ar":"Password",
+                    "en":"Password"
+                },
+                {
+                    "key":"forgetPasswordButtonText",
+                    "ar":"Forget Password",
+                    "en":"Forget Password"
+                },
+                {
+                    "key":"signInButtonText",
+                    "ar":"Sign in",
+                    "en":"Sign in"
+                },
+                {
+                    "key":"toSignUpButtonText",
+                    "ar":"Don't have account? Sign up",
+                    "en":"Don't have account? Sign up"
+                }
+                
+            ]
+        },
+        {
+            "screen":"ForgetPassword",
+            "items":[
+                {
+                    "key":"title",
+                    "ar":"Forgot Password",
+                    "en":"Forgot Password"
+                },
+                {
+                    "key":"emailFieldPlaceHolder",
+                    "ar":"Email",
+                    "en":"Email"
+                },
+                {
+                    "key":"recoverPasswordButtonText",
+                    "ar":"Recover Password",
+                    "en":"Recover Password"
+                },
+                {
+                    "key":"subTitleLabelText",
+                    "ar":"Enter your registered email to receive reset link for your password",
+                    "en":"Enter your registered email to receive reset link for your password"
+                },
+            ]
+        }
+        
+        
+    ]
 }
